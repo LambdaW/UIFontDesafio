@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    NSString *nomeFonte;
+}
 
 
+- (IBAction)Alterar:(id)sender;
+@property NSString *nomeFonte;
 @end
 
